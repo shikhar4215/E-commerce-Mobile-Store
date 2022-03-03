@@ -1,0 +1,22 @@
+extends layout 
+ 
+block content  
+    center     
+        H1 #{title}
+        div.mar.shadow-lg.p-3.bg-white.rounded.m-5
+            div.row 
+                div.col-6
+                    img(src="../images/Head.jpg").shadow-sm.bg-white.rounded.im2
+                div.col-6
+                    div.mapouter
+                        div.gmap_canvas
+                            iframe(width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=130%20columbia%20stree&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0").shadow-sm.bg-white.rounded
+                                .a (href="https://123movies-to.org") 123movies
+                                br
+                                a(href="https://www.embedgooglemap.net") embedgooglemap.net
+                       
+            div.row.mt-3           
+                h2 About Pheonix         
+                p.al Pheonix, South Korean company that is one of the world’s largest producers of electronic devices. Pheonix specializes in the production of a wide variety of consumer and industry electronics, including appliances, media devices, semiconductors, memory chips, and integrated systems. It has become one of the most-recognizable names in technology and produces about a fifth of South Korea’s total exports.
+        
+        

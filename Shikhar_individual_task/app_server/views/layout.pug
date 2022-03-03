@@ -1,0 +1,74 @@
+//- doctype html
+//- html
+//-   head
+//-     title= title
+//-     link(rel='stylesheet', href='/stylesheets/style.css')
+//-     link(rel='stylesheet',href='/stylesheets/bootstrap.css')
+//-     link(rel='stylesheet',href='/stylesheets/bootstrap.min.css')
+    
+//-     script(src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous")
+//-     script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous")
+//-     script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous")
+//-     script(src='https://use.fontawesome.com/b377d6692e.js')
+        
+//-     body.p-0
+//-       nav.navbar.navbar-inverse.n.ml-0.fixed-top
+//-         a.navbar-brand.fa.fa-mobile.fa-5x.il.text-dark
+//-         ul.navbar.nav
+//-           li.nav-item
+//-             a(href="/index").nav-link Home
+//-           li.nav-item
+//-             a(href="/about").nav-link About 
+//-           li.nav-item
+//-             a(href="/list-display").nav-link Products 
+//-           li.nav-item 
+//-             a(href="/display").nav-link Display
+//-           li.nav-item 
+//-             a(href="/new").nav-link Add
+        
+//-       block content 
+//-       footer.bg-While.margin-top-5
+//-         div.fm 
+//-           .row.child_center
+//-             .col-4.footer_three  
+//-               a(href="/index").nav-link Home
+//-               a(href="/index").nav-link FAQ 
+//-               a(href="/index").nav-link Our Team
+//-               a(href="/about").nav-link About
+//-               a(href="/index").nav-link Privacy Policy
+//-             .col-4.footer_three 
+//-               a(href="/index").nav-link ContactUs 
+//-               a(href="/index").nav-link Career
+//-               a(href="/display").nav-link Display
+//-               a(href="/index").nav-link Learnings
+//-               a(href="/index").nav-link Legal 
+//-             .col-4.footer_three 
+//-               a(href="/").fa.fa-facebook.fa-2x.text-decoration-none.mt-3.text-dark
+//-               br
+//-               a(href="/").fa.fa-instagram.fa-2x.text-decoration-none.mt-3.text-dark
+//-               br
+//-               a(href="/").fa.fa-twitter.fa-2x.text-decoration-none.mt-3.text-dark
+//-               br
+//-               a(href="/").fa.fa-linkedin.fa-2x.text-decoration-none.mt-3.text-dark
+//-         center
+//-           p.f.mt-5 Copyrights &copy 2021 All rights received by Pheonix Tech.
+doctype html
+      html(lang="en")
+        head
+          title= title 
+          link(rel='stylesheet',href='/stylesheets/style.css')
+          link(rel='stylesheet', href='/build/style.css')
+        body
+          block content 
+          block scripts 
+            script(src='/build/main.js')
+            script(src='/build/polyfills.js')
+            script(src='/build/runtime.js')
+            script(src='/build/vendor.js') 
+             
+    
+      
+
+
+  
+

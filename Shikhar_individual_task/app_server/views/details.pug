@@ -1,0 +1,30 @@
+extends layout 
+block content 
+    center 
+        h1 Product List 
+        div.mar
+            div.shadow-lg.p-3.bg-white.rounded.m-5
+             Center 
+                 Div  
+                    //- h1 Lattest Release
+                    div.row
+                            .col-12.c.ml- 
+                                div.card.shadow-sm.mb-5.bg-white.rounded.text-decoration-none 
+                                        div 
+                                            img(src="\/"+currentProduct.Image alt="Loading..").w-25.mt-5.mr-5
+                                            h2  #{currentProduct.Name}
+                                            h4 Storage options 
+                                            each Feature in currentProduct.Feature 
+                                                span #{Feature.Storage}gb
+                                                | &nbsp; 
+                                            br
+                                            h4 Color options 
+                                            each Feature in currentProduct.Feature 
+                                                span #{Feature.Color} 
+                                                | &nbsp;&nbsp;
+                                            br
+                                            h4 Price 
+                                            each Feature in currentProduct.Feature 
+                                                span $#{Feature.Price}
+                                                | &nbsp;&nbsp;
+                                            

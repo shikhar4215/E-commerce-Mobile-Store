@@ -1,0 +1,33 @@
+extends layout 
+
+block content 
+
+    center
+        h1 #{title}
+    Div.form
+        form(action="", method="post")    
+            input.em1.txt(type="text" name="Name" id="Name" required)
+            span.l1.lem1 Name
+            input.txt(type='file' name="Image")
+            span.l2 Upload Image   
+            input.em2.txt(type="number" name="Feature[0].Storage"  required)
+            span.l1.lem2 Storage1
+            input.em3.txt(type="string" name="Color1" required)
+            span.l1.lem3 Color1
+            input.em4.txt(type="number" name="Price1" required)
+            span.l1.lem4 Price1
+            input.em5.txt(type="number" name="Storage2" required)
+            span.l1.lem5 Storage2
+            input.em6.txt(type="string" name="Color2" required)
+            span.l1.lem6 Color2
+            input.em7.txt(type="number" name="Price2" required)
+            span.l1.lem7 Price2
+            input.em8.txt(type="number" name="Storage3" required)
+            span.l1.lem8 Storage3
+            input.em9.txt(type="string" name="Color3" required)
+            span.l1.lem9 Color3
+            input.em10.txt(type="number" name="Price3" required)
+            span.l1.lem10 Price3
+            button.w-50.mb-5.mt-5.rounded.btn.btn-success(type="submit") Submit 
+
+
